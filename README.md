@@ -1,7 +1,7 @@
 https://project-showroom-v2.vercel.app/ercan-akalar7392
 
 
-This is the main mape view after register. When user register or logIn, the left side menu is allowed to use.
+This is the main page view after register. When user register or logIn, the left side menu is allowed to use.
 ![4](https://user-images.githubusercontent.com/95161678/226096598-3534e5ce-394f-41de-975b-da6b336c6740.PNG)
 
 If user Want to add projects, he may reach the form. Adding project,the user must fill in the fields that require verification.
