@@ -11,6 +11,10 @@ const Home: NextPage = () => {
     (state: { user: { loading: boolean; user: IUserType } }) => state.user,
   );
 
+  if (typeof window !== 'undefined') {
+    localStorage.setItem('user', JSON.stringify(user));
+  }
+
   const mainClassNames = classNames('flex relative justify-center pt-16');
   return (
     <>

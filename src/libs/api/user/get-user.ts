@@ -6,7 +6,6 @@ export const getUser = createAsyncThunk(
   async (userId: string | undefined) => {
     if (!userId) return;
     return await axios.get(`/api/users/${userId}`).then((response) => {
-      localStorage.setItem('user', JSON.stringify(response.data.data));
       return response.data.data;
     });
   },
